@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-bar {
+  text-decoration: none;
+  margin: 0 1.4rem;
+  font-size: 23px;
+  color: #1fc58e;
+  font-weight: bold;
+}
+.main-bar:hover {
+  color: #fefbd8;
+}
+.ab-bar {
+  list-style-type: none;
+  display: inline;
+}
+nav {
+  background-color: #34568b;
+  padding: 30px 1px;
+  animation-name: rahul;
+  animation-duration: 2s;
+  border-bottom-left-radius: 0.6rem;
+}
+.main-name {
+  display: inline;
+  transform: rotate(20deg);
+  cursor: pointer;
+  font-size: 25px;
+  color: whitesmoke;
+  animation-name: myname;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  font-weight: bold;
+}
+.main-name:hover {
+  color: orangered;
+}
+.items {
+  text-align: right;
+}
+@keyframes rahul {
+  0% {
+    background-color: #6b5b95;
+  }
+  25% {
+    background-color: #9b2335;
+  }
+  50% {
+    background-color: #633517;
+  }
+  100% {
+    background-color: #88b04b;
+  }
+}
+@keyframes myname {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: orangered;
+  }
+  50% {
+    background-color: #34568b;
+  }
+}
+#my-pic {
+  margin: auto;
+  display: block;
+  width: 350px;
+}
+.btm-layer {
+  background-color: #34568b;
+  text-align: center;
+  padding: 25px;
+}
+.blw-layer {
+  display: inline;
+  padding: 0 0.9rem;
+  color: #000000;
+  font-size: 17px;
+}
+.container {
+  text-align: center;
+  display: block;
+}
+.hero-name {
+  color: lightslategray;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+.hero-inverted {
+  color: lightblue;
+}
+.containerclass1 {
+  background-color: rgb(255, 248, 220);
+  padding: 2.5rem;
+}
+.containerclass2 {
+  background-color: #d48166;
+  padding: 2.5rem;
+}
+.containerclass3 {
+  background-color: rgb(255, 248, 220);
+  padding: 2.5rem;
+}
+.bold {
+  color: #9e15bf;
+}
+.bold:hover {
+  color: black;
+}
+.primary-link {
+  color: black;
+  background-color: #e8eae3;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 0.5rem 0.5rem;
+  font-weight: bold;
+}
+#secondary {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-style: bold;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid black;
+}
+#blog-image {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.readmore {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 20px;
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: none;
+}
+#imagejs {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+#learn {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+}
